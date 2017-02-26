@@ -11,3 +11,5 @@ To Run the project :
 *Class diagram is present in the file "Class_Diagram.pdf"
 
 *To read the documentation, run "index.html" file present in the Documentation folder using any web browser.
+
+data_gen folder contains random data generator programs.
