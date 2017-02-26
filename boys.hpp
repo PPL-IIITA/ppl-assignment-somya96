@@ -16,15 +16,6 @@ namespace info {
 			int type;
 
 		public:
-			boys (string n, int a, int b, int i, int ar, int t) {
-				partner = "";
-				name = n;
-				budget = b;
-				intelligence = i;
-				ar = att_req;
-				type = t;
-				comitted = false;
-			}
 			string getName();
                         string getPartner();
                         bool getComitted();
@@ -34,14 +25,14 @@ namespace info {
                         int getReq();
                         int getType();
 
-                        string setName(string);
-                        string setPartner(string);
-                        bool setComitted(bool );
-                        int setAttr(int);
-                        int setBudget(int );
-                        int setIntelligence(int );
-                        int setReq(int );
-                        int setType(int );
+                        void setName(string);
+                        void setPartner(string);
+                        void setComitted(bool );
+                        void setAttr(int);
+                        void setBudget(int );
+                        void setIntelligence(int );
+                        void setReq(int );
+                        void setType(int );
 	};
 }
 #endif

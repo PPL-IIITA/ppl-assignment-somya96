@@ -10,11 +10,11 @@ using namespace info;
 
 
 namespace func {
-
-	void input_boys (vector <boys> &b);
-	void input_girls (vector <girls> &g);
-	void make_couples (vector <boys> &b, vector <girls> &g);
-
+	void input_boys (boys * b);
+	void input_girls (girls * g);
+	void make_couples (boys * b, girls * g, couples* c);
+	void read_gifts (egifts * eg, lgifts * lg, ugifts * ug);
+	void exchange_gifts (egifts * eg, lgifts * lg, ugifts * ug, couples * c);
 }
 
 #endif

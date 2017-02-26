@@ -28,27 +28,27 @@ int boys::getType() {
 	return type;
 }
 
-string boys::setName(string x){
+void boys::setName(string x){
 	name = x;
 }
-string boys::setPartner(string x) {
+void boys::setPartner(string x) {
 	partner = x;
 }
-bool boys::setComitted(bool x) {
+void boys::setComitted(bool x) {
 	comitted = x;
 }
-int boys::setAttr(int x) {
+void boys::setAttr(int x) {
 	attractiveness = x;
 }
-int boys::setBudget(int x) {
+void boys::setBudget(int x) {
 	budget = x;
 }
-int boys::setIntelligence(int x) {
+void boys::setIntelligence(int x) {
 	intelligence = x;
 }
-int boys::setReq(int x) {
+void boys::setReq(int x) {
 	att_req = x;
 }
-int boys::setType(int x) {
+void boys::setType(int x) {
 	type = x;
 }

@@ -16,7 +16,7 @@ namespace info {
 			int type;
 
 		public:
-			girls (string n, int a, int m, int i, int c, int t) {
+			/*girls (string n, int a, int m, int i, int c, int t) {
 				partner = "";
 				name = n;
 				attractiveness = a;
@@ -25,7 +25,7 @@ namespace info {
 				criteria = c;
 				type = t;
 				comitted = false;
-			}
+			}*/
 			string getName ();
 			string getPartner ();
 			bool getComitted ();
@@ -35,14 +35,14 @@ namespace info {
 			int getCriteria ();
 			int getType ();
 	
-			string setName (string);
-                        string setPartner (string);
-                        bool setComitted (bool );
-                        int setAttr (int );
-                        int setMain (int );
-                        int setIntelligence (int );
-                        int setCriteria (int );
-                        int setType (int );
+			void setName (string);
+                        void setPartner (string);
+                        void setComitted (bool );
+                        void setAttr (int );
+                        void setMain (int );
+                        void setIntelligence (int );
+                        void setCriteria (int );
+                        void setType (int );
 	};
 }
 #endif
